@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="githubssh"
+           fetch="ssh://git@github.com/" />
+
+  <project path="device/nothing/Spacewar" name="StudioKeys-Dumps/device_nothing_Spacewar" remote="githubssh" revision="waterlily-qpr2" />
+  <project path="kernel/nothing/sm7325" name="StudioKeys-Dumps/kernel_nothing_sm7325" remote="githubssh" revision="waterlily-qpr2" />
+  <project path="vendor/nothing/Spacewar" name="StudioKeys-Dumps/proprietary_vendor_nothing_Spacewar" remote="githubssh" revision="waterlily-qpr2" />
+  <project path="hardware/nothing" name="StudioKeys-Dumps/hardware_nothing" remote="githubssh" revision="waterlily-qpr2" />
+
+</manifest>
