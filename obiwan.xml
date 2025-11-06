@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="githubssh"
-           fetch="ssh://git@github.com/" />
-
-  <project path="device/asus/obiwan" name="StudioKeys-Dumps/device_asus_obiwan" remote="githubssh" revision="waterlily" />
-  <project path="kernel/asus/sm8250" name="StudioKeys-Dumps/kernel_asus_sm8250" remote="githubssh" revision="waterlily" />
-  <project path="vendor/asus/obiwan" name="StudioKeys-Dumps/vendor_asus_obiwan" remote="githubssh" revision="waterlily" />
-  
+   
+<remote name="mojito"
+        fetch="https://github.com" />   
+<remote name="romgharti"  
+        fetch="https://gitlab.com" />
+   
+<!-- Trees --> 
+<project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="BlissRoms-Devices" revision="mojito-waterlily" />
+<project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="BlissRoms-Devices" revision="mojito-waterlily" />
+<project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="BlissRoms-Devices" revision="inline-rom" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="mojito" />
+<project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="romgharti" revision="16" />
+<project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="16" />
+ 
 </manifest>
