@@ -21,9 +21,9 @@
 <!-- fogo Trees -->
   <project path="device/motorola/fogo" remote="bcrichster" name="android_device_motorola_fogo" revision="lineage-23.0" />
   <project path="device/motorola/sm6375-common" remote="bcrichster" name="android_device_motorola_sm6375-common" revision="lineage-23.0" />
-  <project path="hardware/motorola" remote="los" name="android_hardware_motorola" revision="lineage-23.0"/>
+  <project path="hardware/motorola" remote="los" name="android_hardware_motorola" revision="Ib6144a0c5572df472f6c06eeca2a87b9198f5f83" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" />
   <project path="kernel/motorola/sm6375" remote="bcrichster" name="android_kernel_motorola_sm6375" revision="lineage-23.0" />
-  <project path="vendor/motorola/fogo" remote="bcrichster" name="proprietary_vendor_motorola_fogo" revision="lineage-23.0"/>
-  <project path="vendor/motorola/sm6375-common" remote="bcrichster" name="proprietary_vendor_motorola_sm6375-common" revision="lineage-23.0"/>
+  <project path="vendor/motorola/fogo" remote="bcrichster" name="proprietary_vendor_motorola_fogo" revision="lineage-23.0" />
+  <project path="vendor/motorola/sm6375-common" remote="bcrichster" name="proprietary_vendor_motorola_sm6375-common" revision="lineage-23.0" />
 
  </manifest>
