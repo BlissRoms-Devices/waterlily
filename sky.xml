@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"/>
+
+  <project path="device/xiaomi/sky" name="BlissRoms-Devices/android_device_xiaomi_sky" remote="github"  revision="waterlily" />
+  <project path="device/xiaomi/sky-kernel" name="BlissRoms-Devices/android_kernel_xiaomi_sky" remote="github" revision="waterlily" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-23.0" />
+  <project path="vendor/xiaomi/sky" name="BlissRoms-Devices/android_vendor_xiaomi_sky" remote="github" revision="waterlily" />
+</manifest>
