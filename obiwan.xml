@@ -3,8 +3,8 @@
   <remote name="githubssh"
            fetch="ssh://git@github.com/" />
 
-  <project path="device/asus/obiwan" name="StudioKeys-Dumps/device_asus_obiwan" remote="githubssh" revision="waterlily" />
-  <project path="kernel/asus/sm8250" name="StudioKeys-Dumps/kernel_asus_sm8250" remote="githubssh" revision="waterlily" />
-  <project path="vendor/asus/obiwan" name="StudioKeys-Dumps/vendor_asus_obiwan" remote="githubssh" revision="waterlily" />
+  <project path="device/asus/obiwan" name="StudioKeys-Dumps/device_asus_obiwan" remote="githubssh" revision="waterlily-qpr2" />
+  <project path="kernel/asus/sm8250" name="StudioKeys-Dumps/kernel_asus_sm8250" remote="githubssh" revision="waterlily-qpr2" />
+  <project path="vendor/asus/obiwan" name="StudioKeys-Dumps/vendor_asus_obiwan" remote="githubssh" revision="waterlily-qpr2" />
   
 </manifest>
