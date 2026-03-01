@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    
-<remote name="mojito"
+<remote name="onyx"
         fetch="https://github.com" />   
 <remote name="romgharti"  
         fetch="https://gitlab.com" />
    
 <!-- Trees --> 
-<project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="BlissRoms-Devices" revision="mojito-waterlily" />
-<project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="BlissRoms-Devices" revision="mojito-waterlily" />
-<project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="BlissRoms-Devices" revision="inline-rom" />
-<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="mojito" />
-<project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="romgharti" revision="16" />
-<project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="16" />
- 
+<project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="BlissRoms-Devices" revision="bliss" />
+<project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="lineage-23.2" />
+<project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="BlissRoms-Devices" revision="lineage-23.2" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="onyx" />
+<project path="packages/apps/GameBar" name="poco-f7-onyx/packages_apps_GameBar" remote="onyx" revision="main" />
+
 </manifest>
