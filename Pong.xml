@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/nothing/Pong" name="drishal/device_nothing_Pong" remote="github"  revision="bliss" />
+  <project path="kernel/nothing/sm8475" name="Nothing-phone-2-Development/android_kernel_nothing_sm8475" remote="github" revision="lineage-23.0" />
+  <project path="kernel/nothing/sm8475-modules" name="Nothing-phone-2-Development/android_kernel_nothing_sm8475-modules" remote="github" revision="lineage-23.0" />
+  <project path="kernel/nothing/sm8475-devicetrees" name="Nothing-phone-2-Development/android_kernel_nothing_sm8475-devicetrees" remote="github" revision="lineage-23.0" />
+  <project path="vendor/nothing/Pong" name="Pong-Development/vendor_nothing_Pong" remote="github" revision="16" />
+  <remove-project path="hardware/qcom-caf/sm8450/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8450/display" name="drishal/hardware_qcom-caf_sm8450_display" remote="github" revision="16" />
+  <project path="packages/apps/ParanoidGlyphPhone2" name="Pong-Development/packages_apps_ParanoidGlyph" remote="github" revision="16" />
+  <project path="packages/apps/GlyphAdapter" name="Pong-Development/packages_apps_GlyphAdapter" remote="github" revision="16" />
+  <project path="hardware/dolby" name="Pong-Development/hardware_dolby" remote="github" revision="16" />
+</manifest>
