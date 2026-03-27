@@ -39,10 +39,4 @@
         name="TheMuppets/proprietary_vendor_motorola_sm8550-common"
         remote="githubssh"
         revision="lineage-23.2" />
-    <!-- Framework Base -->
-    <remove-project name="BlissRoms/platform_frameworks_base" />
-    <project path="frameworks/base"
-         name="LineageOS/android_frameworks_base"
-         remote="githubssh"
-         revision="lineage-22.2" />
 </manifest>
