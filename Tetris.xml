@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <remove-project name="frameworks/base" />
+  <remove-project name="frameworks/native" />
+
+  <project path="device/nothing/Tetris"  name="sreelekshman/device_nothing_Tetris" remote="github" revision="waterlily" />
+  <project path="device/nothing/Tetris-kernel" name="abdulla-li/android_device_nothing_Tetris-kernel" remote="github" revision="v3.2" />
+  <project path="vendor/nothing/Tetris" name="sreelekshman/vendor_nothing_Tetris" remote="gitlab" revision="waterlily" />
+  <project path="hardware/mediatek" name="SuperAviation001/android_hardware_mediatek" remote="github" revision="lineage-22.2" />
+  <project path="frameworks/base" name="sreelekshman/platform_frameworks_base" remote="github" revision="waterlily-qpr2" />
+  <project path="frameworks/native" name="sreelekshman/platform_frameworks_native" remote="github" revision="waterlily-qpr2" />
+
+</manifest>
