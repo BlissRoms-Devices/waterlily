@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="peridot-dev" fetch="https://github.com/peridot-dev" />
-<remote name="PixelOS-Devices" fetch="https://github.com/PixelOS-Devices" />
 <remote name="AdarshGrewal" fetch="https://gitlab.com/AdarshGrewal" />
 <remote name="s" fetch="https://github.com/SwapnilVicky" />
 
 <!-- Device Tree --> 
-<project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="s" revision="waterlily" />
+<project path="device/xiaomi/peridot" name="android_device_xiaomi_peridot" remote="s" revision="waterlily" />
    
 <!-- Vendor Tree -->   
 <project path="vendor/xiaomi/peridot" name="proprietary_vendor_xiaomi_peridot" remote="AdarshGrewal" revision="lineage-23.2" />
 
 <!-- Kernel Trees -->   
-<project path="kernel/xiaomi/sm8635" name="android_kernel_xiaomi_sm8635" remote="PixelOS-Devices" revision="sixteen-qpr2" />
-<project path="kernel/xiaomi/sm8635-devicetrees" name="android_kernel_xiaomi_sm8635-devicetrees" remote="PixelOS-Devices" revision="sixteen-qpr2" />
-<project path="kernel/xiaomi/sm8635-modules" name="android_kernel_xiaomi_sm8635-modules" remote="PixelOS-Devices" revision="sixteen-qpr2" />
+<project path="kernel/xiaomi/sm8635" name="android_kernel_xiaomi_sm8635" remote="s" revision="waterlily" />
+<project path="kernel/xiaomi/sm8635-devicetrees" name="android_kernel_xiaomi_sm8635-devicetrees" remote="s" revision="waterlily" />
+<project path="kernel/xiaomi/sm8635-modules" name="android_kernel_xiaomi_sm8635-modules" remote="s" revision="waterlily" />
 
 <!-- Hardware Xiaomi --> 
-<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="peridot-dev" revision="lineage-23.2" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="waterlily" />
 
 </manifest>
