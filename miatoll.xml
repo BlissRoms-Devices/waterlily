@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-<remote  name="s"  fetch="https://github.com/SwapnilVicky" />
+   
 
 <!-- Trees --> 
 <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" remote="BlissRoms-Devices" revision="waterlily" />
@@ -14,9 +13,6 @@
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="waterlily" />
 
 <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-23.2" />
-
-<!-- MIUI Camera -->
-<project path="vendor/xiaomi/miuicamera-miatoll" name="vendor_xiaomi_miuicamera" remote="s" revision="16" />
 
 
 </manifest>
