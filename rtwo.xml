@@ -14,9 +14,9 @@
         remote="githubssh"
         revision="blissrom-19.3" />
     <project path="device/motorola/sm8550-common"
-        name="LineageOS/android_device_motorola_sm8550-common"
+        name="BOBtheBlinker/android_device_motorola_sm8550-common"
         remote="githubssh"
-        revision="lineage-23.2" />
+        revision="blissrom-19.4" />
     <!-- Kernel trees -->
     <project path="kernel/motorola/sm8550"
         name="LineageOS/android_kernel_motorola_sm8550"
