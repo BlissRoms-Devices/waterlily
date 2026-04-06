@@ -8,6 +8,10 @@
         name="LineageOS/android_hardware_motorola"
         remote="githubssh"
         revision="lineage-23.2" />
+    <project path="device/lineage/sepolicy"
+        name="LineageOS/android_device_lineage_sepolicy"
+        remote="githubssh"
+        revision="lineage-23.2" />
     <!-- Device trees -->
     <project path="device/motorola/rtwo"
         name="BOBtheBlinker/android_device_motorola_rtwo"
