@@ -9,7 +9,7 @@
 
   <project path="device/asus/AI2202" remote="BlissRoms-Devices1" name="android_device_asus_AI2202" revision="waterlily-qpr2" />
   <project path="vendor/asus/AI2202" remote="BlissRoms-Devices1" name="proprietary_vendor_asus_AI2202" revision="waterlily-qpr2" />
-  <project path="kernel/asus/sm8450" remote="OmniRoms" name="omnirom/android_kernel_asus_zenfone9" revision="android-16" />
+  <project path="kernel/asus/sm8450" remote="BlissRoms-Devices1" name="android_kernel_asus_sm8450" revision="waterlily-qpr2" />
   <project path="kernel/asus/sm8450-modules" remote="OmniRoms" name="asus-development/zenfone9_qcom_opensource_devicetree" revision="android-16" />
   <project path="kernel/asus/sm8450-devicetrees" remote="OmniRoms" name="asus-development/zenfone9_qcom_devicetree" revision="android-16" />
 </manifest>
