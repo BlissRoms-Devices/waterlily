@@ -2,14 +2,16 @@
 <manifest>
 
   <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote name="githubssh" fetch="ssh://git@github.com/" />
+  <remote name="gitlabssh" fetch="ssh://git@gitlab.com/" />
 
   <remove-project name="platform_frameworks_base" />
   <remove-project name="platform_frameworks_native" />
 
-  <project path="device/nothing/Tetris"  name="sreelekshman/device_nothing_Tetris" remote="github" revision="waterlily" />
-  <project path="device/nothing/Tetris-kernel" name="abdulla-li/android_device_nothing_Tetris-kernel" remote="github" revision="a16" />
-  <project path="vendor/nothing/Tetris" name="sreelekshman/vendor_nothing_Tetris" remote="gitlab" revision="waterlily" />
-  <project path="hardware/mediatek" name="abdulla-li/android_hardware_mediatek" remote="github" revision="lineage-23.2" />
+  <project path="device/nothing/Tetris"  name="sreelekshman/device_nothing_Tetris" remote="githubssh" revision="waterlily" />
+  <project path="device/nothing/Tetris-kernel" name="sreelekshman/android_device_nothing_Tetris-kernel" remote="githubssh" revision="a16" />
+  <project path="vendor/nothing/Tetris" name="sreelekshman/vendor_nothing_Tetris" remote="gitlabssh" revision="waterlily" />
+  <project path="hardware/mediatek" name="sreelekshman/android_hardware_mediatek" remote="githubssh" revision="lineage-23.2" />
   <project path="frameworks/base" name="sreelekshman/platform_frameworks_base" remote="github" revision="waterlily-qpr2" />
   <project path="frameworks/native" name="sreelekshman/platform_frameworks_native" remote="github" revision="waterlily-qpr2" />
 
