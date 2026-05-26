@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="githubssh" fetch="ssh://git@github.com/" />
+
+    <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="githubssh" revision="waterlily" />
+    <project path="device/xiaomi/sm6150-common" name="Raimaru24/blissroms_device_xiaomi_sm6150-common" remote="githubssh" revision="waterlily-2.0" />
+    <project path="device/xiaomi/sweet" name="RaiMaru24/blissroms_device_xiaomi_sweet" remote="githubssh" revision="waterlily-2.0" />
+    <project path="vendor/xiaomi/sm6150-common" name="RaiMaru24/blissroms_vendor_xiaomi_sm6150-common" remote="githubssh" revision="waterlily" />
+    <project path="vendor/xiaomi/sweet" name="RaiMaru24/blissroms_vendor_xiaomi_sweet" remote="githubssh" revision="waterlily" />
+    <project path="kernel/xiaomi/sm6150" name="RaiMaru24/blissroms_kernel_xiaomi_sm6150" remote="githubssh" revision="waterlily" />
+</manifest>
