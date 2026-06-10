@@ -7,7 +7,7 @@
         fetch="https://gitlab.com" />
    
 <!-- Trees --> 
-<project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="BlissRoms-Devices" revision="wip" />
+<project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="BlissRoms-Devices" revision="waterlily" />
 <project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="waterlily" />
 <project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="BlissRoms-Devices" revision="waterlily" />
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="onyx" />
