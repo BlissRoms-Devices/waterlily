@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote name="sreelekshman" fetch="https://git.sreelekshman.in/" />
 
   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
   <remove-project name="platform_frameworks_av" />
 
   <project path="device/xiaomi/pipa"  name="sreelekshman/android_device_xiaomi_pipa" remote="github" revision="waterlily-unified" />
   <project path="kernel/xiaomi/sm8250" name="SD870/kernel_xiaomi_sm8250" remote="github" revision="16" />
-  <project path="vendor/xiaomi/pipa" name="sreelekshman/vendor_xiaomi_pipa" remote="gitlab" revision="waterlily" />
+  <project path="vendor/xiaomi/pipa" name="sreelekshman/vendor_xiaomi_pipa" remote="sreelekshman" revision="waterlily" />
   <project path="hardware/xiaomi" name="SD870/hardware_xiaomi" remote="github" revision="16" />
   <project path="packages/resources/devicesettings" name="PocoF3Releases/packages_resources_devicesettings" remote="github" revision="aosp-16" />
   <project path="frameworks/av" name="sreelekshman/platform_frameworks_av" remote="github" revision="waterlily-qpr2" />
