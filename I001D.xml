@@ -5,6 +5,7 @@
 
   <project path="device/asus/I001D" name="StudioKeys-Dumps/device_asus_I001D" remote="githubssh" revision="waterlily-qpr2" />
   <project path="device/asus/sm8150-common" name="StudioKeys-Dumps/device_asus_sm8150-common" remote="githubssh" revision="waterlily-qpr2" />
+  <project path="hardware/asus" name="StudioKeys-Dumps/hardware_asus" remote="githubssh" revision="waterlily-qpr2" />  
   <project path="kernel/asus/I001D" name="StudioKeys-Dumps/kernel_asus_I001D" remote="githubssh" revision="waterlily-qpr2" />
   <project path="vendor/asus/I001D" name="StudioKeys-Dumps/vendor_asus_I001D" remote="githubssh" revision="waterlily-qpr2" />
   <project path="vendor/asus/sm8150-common" name="StudioKeys-Dumps/vendor_asus_sm8150-common" remote="githubssh" revision="waterlily-qpr2" />  
