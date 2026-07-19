@@ -21,11 +21,11 @@
           sync-tags="false" />
 
 <!-- genevn_yume Trees -->
-  <project path="device/motorola/genevn" remote="bob" name="android_device_motorola_genevn" revision="lineage-23.2" />
-  <project path="device/motorola/sm7435-common" remote="bob" name="android_device_motorola_sm7435-common" revision="lineage-23.2" />
+  <project path="device/motorola/genevn" remote="bob" name="android_device_motorola_genevn" revision="blissrom-19.6" />
+  <project path="device/motorola/sm7435-common" remote="bob" name="android_device_motorola_sm7435-common" revision="blissrom-19.6" />
   <project path="hardware/motorola" remote="bcrichster" name="android_hardware_motorola" revision="lineage-23.2" />
   <project path="kernel/motorola/sm7435" remote="bcrichster" name="android_kernel_motorola_sm7435" revision="lineage-23.2" />
-  <project path="vendor/motorola/genevn" remote="bob" name="proprietary_vendor_motorola_genevn" revision="lineage-23.2" />
+  <project path="vendor/motorola/genevn" remote="muppets" name="proprietary_vendor_motorola_genevn" revision="lineage-23.2" />
   <project path="vendor/motorola/sm7435-common" remote="bob" name="proprietary_vendor_motorola_sm7435-common" revision="blissrom-19.6" />
 
  </manifest>
