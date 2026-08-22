@@ -8,9 +8,9 @@
    
 <!-- Trees --> 
 <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="BlissRoms-Devices" revision="lineage-23.2" />
-<project path="kernel/xiaomi/sm8735" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735" remote="BlissRoms-Devices" revision="lineage-23.2" /> 
-<project path="kernel/xiaomi/sm8735-modules" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-modules" remote="BlissRoms-Devices" revision="lineage-23.2" /> 
-<project path="kernel/xiaomi/sm8735-devicetrees" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-devicetrees" remote="BlissRoms-Devices" revision="lineage-23.2" /> 
+<project path="kernel/xiaomi/sm8735" name="android_kernel_xiaomi_sm8735" remote="BlissRoms-Devices" revision="lineage-23.2" /> 
+<project path="kernel/xiaomi/sm8735-modules" name="android_kernel_xiaomi_sm8735-modules" remote="BlissRoms-Devices" revision="lineage-23.2" /> 
+<project path="kernel/xiaomi/sm8735-devicetrees" name="android_kernel_xiaomi_sm8735-devicetrees" remote="BlissRoms-Devices" revision="lineage-23.2" /> 
 <project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="lineage-23.2" />
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="onyx" />
 <project path="packages/apps/GameBar" name="poco-f7-onyx/packages_apps_GameBar" remote="onyx" revision="lineage-23.2" />
