@@ -11,8 +11,8 @@
 <!-- CLO -->
   <remote name="clo-la" fetch="https://git.codelinaro.org/clo/la/" sync-c="true" sync-tags="false" />
 <!-- mona Device trees -->
-  <project path="device/motorola/mona" name="Bcrichster/android_device_motorola_mona" remote="bcrichster" />
-  <project path="device/motorola/sm6475-common" name="Bcrichster/android_device_motorola_sm6475-common" remote="bcrichster" />
+  <project path="device/motorola/mona" name="android_device_motorola_mona" remote="bcrichster" revision="bliss-19" />
+  <project path="device/motorola/sm6475-common" name="android_device_motorola_sm6475-common" remote="bcrichster" />
   <project path="vendor/motorola/mona" name="CharaROMAndroid/proprietary_vendor_motorola_mona" remote="charagit-mona" revision="lineage-23.2-chararom" />
   <project path="vendor/motorola/sm6475-common" name="CharaROMAndroid/proprietary_vendor_motorola_sm6475-common" remote="charagit-mona" revision="lineage-23.2-chararom" />
   <project path="kernel/motorola/sm6475" name="CharaROMAndroid/android_kernel_motorola_sm7435" remote="charagit-mona" revision="lineage-23.2-6.6" clone-depth="1" />
